@@ -209,8 +209,6 @@ Error message and password prompt
 
 <li>Crimestoppers</li>
 
-<li>CrimestoppersUsefulUndisclosed10</li>
-
 <li>CristinaGutierrez</li>
 
 <li>DetectiveGregoryMacGillivary</li>
@@ -248,6 +246,8 @@ Error message and password prompt
 <li>InconsistanciesInJaysStorySerial8</li>
 
 <li>InconsistancyJaysStatementSerial8</li>
+
+<li>IsCrimestoppersUsefulUndisclosed10</li>
 
 <li>JayArrestedAsAccessoryToHaesMurder</li>
 
@@ -303,9 +303,13 @@ Error message and password prompt
 
 <li>SerialPodcast</li>
 
+<li>TestTable</li>
+
 <li>TestTid2</li>
 
 <li>Timeline</li>
+
+<li>TranscriptOfBradyViolationsUndisclosed10</li>
 
 <li>TranscriptOfCrimestoppersBradyViolation</li>
 
@@ -6088,7 +6092,7 @@ Error message and password prompt
 <div modified="20151106004710318" title="$:/state/tab/sidebar--1835078512">
 <pre>$:/core/ui/SideBar/Recent</pre>
 </div>
-<div list="CrimestoppersUsefulUndisclosed10 SelfIncriminationForRewardUndisclosed10 WhyWouldJayIncriminateHimselfUndisclosed10 Feb12TipCopyOfFeb1TipUndisclosed10 FactualSideOfTipUndisclosed10 BeanieCaseUndisclosed10 DidCrimestoppersBuyMotorcycleUndisclosed10 [[Draft of 'ProsecutionCommitsObviousBradyViolationUndisclosed10']] WhoWasTheFeb1TipsterUndisclosed10 DetectivesFocusOnlyAdnanFeb1Undisclosed10 WasJayTheTipsterUndisclosed10 BradyLawUndisclosed10 BradyViolationsUndisclosed10 Serial-OO-NSNarrative" title="$:/StoryList">
+<div list="27Feb1999 27Jan1999 LinkinPark EmailForSerialDynastyFromShona [[Judge Wanda K. Heard]] AdnanSyed CristinaGutierrez HaeMinLee 15Dec1999 25Feb2000 TestTable IsCrimestoppersUsefulUndisclosed10 SelfIncriminationForRewardUndisclosed10 WhyWouldJayIncriminateHimselfUndisclosed10 Feb12TipCopyOfFeb1TipUndisclosed10 FactualSideOfTipUndisclosed10 BeanieCaseUndisclosed10 DidCrimestoppersBuyMotorcycleUndisclosed10 [[Draft of 'ProsecutionCommitsObviousBradyViolationUndisclosed10']] WhoWasTheFeb1TipsterUndisclosed10 DetectivesFocusOnlyAdnanFeb1Undisclosed10 WasJayTheTipsterUndisclosed10 BradyLawUndisclosed10 BradyViolationsUndisclosed10 Serial-OO-NSNarrative" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -6300,9 +6304,6 @@ Disorderly Conduct, Resisting Arrest </pre>
 <div created="20151105020424140" modified="20151105020435633" tags="Group" title="Crimestoppers">
 <pre></pre>
 </div>
-<div _canonical_uri="file:undisclosed-episode-10-crimestoppers.mp3#t=1:08:43,1:11:04" created="20151107013152588" modified="20151107013305820" tags="UndisclosedPodcast" title="CrimestoppersUsefulUndisclosed10" type="audio/mp3">
-<pre></pre>
-</div>
 <div created="20151101193642462" modified="20151101193821263" tags="Person" title="CristinaGutierrez">
 <pre>Lawyer representing [[Adnan|AdnanSyed]]</pre>
 </div>
@@ -6376,6 +6377,9 @@ Although surrounded by an urban environment, some areas of the park are so heavi
 <pre></pre>
 </div>
 <div _canonical_uri="file:serial-episode-08-the-deal-with-jay.mp3#t=15:22,17:49" created="20151029013540621" modified="20151103192526414" tags="SerialPodcast Jay" title="InconsistancyJaysStatementSerial8" type="audio/mp3">
+<pre></pre>
+</div>
+<div _canonical_uri="file:undisclosed-episode-10-crimestoppers.mp3#t=1:08:43,1:11:04" created="20151107013152588" modified="20151108191633537" tags="UndisclosedPodcast" title="IsCrimestoppersUsefulUndisclosed10" type="audio/mp3">
 <pre></pre>
 </div>
 <div created="20151103181353426" modified="20151103182225665" tags="Jay Narrative" title="JayArrestedAsAccessoryToHaesMurder">
@@ -6482,11 +6486,213 @@ Born in Baltimore, Maryland, January 16, 1948. Attended Baltimore City College; 
 <div color="#ff0000" created="20151029014559602" modified="20151029014559602" title="SerialPodcast">
 <pre></pre>
 </div>
+<div created="20151108220502128" modified="20151108221517421" tags="" title="TestTable">
+<pre>&lt;table&gt;
+&lt;tr&gt;
+  &lt;th&gt;
+    &lt;$button class='tc-btn-invisible' style='width:100%;height:100%'&gt;
+      Plugin Person
+      &lt;$action-setfield sort_by='Person'/&gt;
+    &lt;/$button&gt;
+  &lt;/th&gt;
+  &lt;th&gt;
+    &lt;$button class='tc-btn-invisible' style='width:100%;height:100%'&gt;
+      Plugin Date
+      &lt;$action-setfield sort_by='Date'/&gt;
+    &lt;/$button&gt;
+  &lt;/th&gt;
+&lt;/tr&gt;
+&lt;$list filter='[tag[Plugin twCard]has[Person]has[Date]sort{!!sort_by}]'&gt;
+&lt;tr&gt;
+  &lt;td&gt;
+    &lt;$view field='Person'/&gt;
+  &lt;/td&gt;
+  &lt;td&gt;
+    &lt;$view field='Date'/&gt;
+  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/$list&gt;
+&lt;/table&gt;</pre>
+</div>
 <div color="#ff0000" created="20151101003856107" icon="$:/core/images/help" modified="20151101004023427" tags="" title="TestTid2">
 <pre></pre>
 </div>
 <div created="20151101222137183" modified="20151101222200434" title="Timeline">
 <pre>&lt;&lt;list-links filter:&quot;[tag[Date]]+[nsort[order]]&quot;&gt;&gt;</pre>
+</div>
+<div created="20151108182405831" modified="20151108191351625" tags="UndisclosedPodcast" title="TranscriptOfBradyViolationsUndisclosed10">
+<pre>{{BradyViolationsUndisclosed10}}
+
+&lt;p&gt;1:36 &lt;br&gt;so I know it's been a long wait for our listeners since last week when I first.&lt;br&gt;
+1:41 &lt;br&gt;mentioned that we had something big to talk about in this episode.&lt;br&gt;
+1:43 &lt;br&gt;something we have been working on for a while now to verify we did a lot of&lt;br&gt;
+1:47 &lt;br&gt;digging and finally managed to figure out a piece of this case that has been&lt;br&gt;
+1:51&lt;br&gt;totally missing until now a piece that explains so much about how this&lt;br&gt;
+1:55 &lt;br&gt;investigation happened and appears that along with the new filing today by&lt;br&gt;
+1:59&lt;br&gt;
+Justin makes a really bad week with state of Maryland just briefly though&lt;br&gt;
+2:04&lt;br&gt;
+before you get to the heart of the matter&lt;br&gt;
+2:06&lt;br&gt;
+a quick reminder about how Brady violations operating in the law because&lt;br&gt;
+2:09&lt;br&gt;
+of what we reveal in today's episode isn't brady material nothing as&lt;br&gt;
+2:14&lt;br&gt;
+discovery is the process by which the state and the defense change documents&lt;br&gt;
+2:24&lt;br&gt;
+in advance&lt;br&gt;
+2:25&lt;br&gt;
+trial before I discuss the supreme court's opinion Brady versus Maryland&lt;br&gt;
+2:29&lt;br&gt;
+and from it the Brady doctrine in that's the rule that says regardless of her&lt;br&gt;
+2:35&lt;br&gt;
+request by defense counsel the prosecution has an affirmative&lt;br&gt;
+2:39&lt;br&gt;
+obligation in advance of trial to turn over material exculpatory endings and&lt;br&gt;
+2:44&lt;br&gt;
+again evidence is material and exculpatory when it undermines our&lt;br&gt;
+2:49&lt;br&gt;
+competence in the jury's verdict and the question we leave to you today as you&lt;br&gt;
+2:53&lt;br&gt;
+listen to this episode is do you believe that the evidence that was not disclosed&lt;br&gt;
+2:58&lt;br&gt;
+to the defense undermines your confidence in the jury&lt;br&gt;
+3:03&lt;br&gt;
+so how were Brady obligations treated by the Baltimore State's Attorney's Office&lt;br&gt;
+3:11&lt;br&gt;
+by the time of the month trial while in July 1999 which is just a couple months&lt;br&gt;
+3:16&lt;br&gt;
+after Adnan was arrested the Baltimore Sun published an article about a man who&lt;br&gt;
+3:20&lt;br&gt;
+had been convicted of murder and then exonerated after it was later discovered&lt;br&gt;
+3:24&lt;br&gt;
+that exculpatory evidence have been withheld from his defense including a
+3:28&lt;br&gt;
+series of police reports and witness statement&lt;br&gt;
+3:31&lt;br&gt;
+the Baltimore Sun Road the penny for case is part of a pattern in Baltimore&lt;br&gt;
+3:35&lt;br&gt;
+where prosecutors and police have ignored state and federal laws by&lt;br&gt;
+3:38&lt;br&gt;
+failing to turn over evidence to those accused of crimes the pattern is&lt;br&gt;
+3:42&lt;br&gt;
+confirmed by review of criminal cases a computer analysis of court records by&lt;br&gt;
+3:46&lt;br&gt;
+the Sun interviews with defense lawyers judges and prosecutors and a federally&lt;br&gt;
+3:50&lt;br&gt;
+funded study of problems at the courthouse not revealing evidence has&lt;br&gt;
+3:54&lt;br&gt;
+led to wrongful convictions trial delays and freedom for suspected criminals over&lt;br&gt;
+3:58&lt;br&gt;
+the past two years charges against at least eight defendants including&lt;br&gt;
+4:02&lt;br&gt;
+attempted murder and cocaine trafficking have been dismissed because prosecutors&lt;br&gt;
+4:05&lt;br&gt;
+violated laws requiring the disclosure of evidence known as discovery of the&lt;br&gt;
+4:11&lt;br&gt;
+problem was so serious that the following month in August of 1989&lt;br&gt;
+4:14&lt;br&gt;
+hearings were actually held Annapolis at the Statehouse on Baltimore systemic&lt;br&gt;
+4:19&lt;br&gt;
+failure to disclose Brady material to defendants and here's another call from&lt;br&gt;
+4:23&lt;br&gt;
+the Baltimore Sun the coordinator of counsel trying to reform Baltimore's&lt;br&gt;
+4:27&lt;br&gt;
+courts told a legislative panel yesterday the failure to disclose&lt;br&gt;
+4:31&lt;br&gt;
+evidence to promote dependence is part of the courthouse culture that leads to&lt;br&gt;
+4:35&lt;br&gt;
+delays and undermines justice and one of the examples cited was a triple homicide&lt;br&gt;
+4:40&lt;br&gt;
+case in which the state failed to disclose a tip to police that someone&lt;br&gt;
+4:45&lt;br&gt;
+else had committed the murders that disregard for discovery obligations was&lt;br&gt;
+4:50&lt;br&gt;
+president of the case as well no question here the prosecutors produced&lt;br&gt;
+4:55&lt;br&gt;
+initial discovery to the defense months afterwards do and they've been continued&lt;br&gt;
+5:00&lt;br&gt;
+to trickle produced documents up throughout both of the nonce trials&lt;br&gt;
+5:03&lt;br&gt;
+so is it possible that the state would have knowingly withheld Brady materials&lt;br&gt;
+5:08&lt;br&gt;
+in this case&lt;br&gt;
+5:09&lt;br&gt;
+oh yeah it's not just a possibility we know for a fact that they did take this&lt;br&gt;
+5:14&lt;br&gt;
+exchange for incidents where nuns very first trial the court date do you have&lt;br&gt;
+5:19&lt;br&gt;
+Brady material which you have not disclosed
+5:22&lt;br&gt;
+urich if there was reading material we would have given up by now&lt;br&gt;
+5:27&lt;br&gt;
+court well the question is do you have any Brady but you have not disclosed&lt;br&gt;
+5:32&lt;br&gt;
+you know that was on December 8 before the state had handed over a single one&lt;br&gt;
+5:38&lt;br&gt;
+of Jay statements any criminal lawyer he was competent enough to be practicing&lt;br&gt;
+5:43&lt;br&gt;
+knows that what you're saying is not true because every single one of Jay&lt;br&gt;
+5:47&lt;br&gt;
+statements is text of Brady material there's no room for confusion this point&lt;br&gt;
+5:52&lt;br&gt;
+no room for good faith legal argument that the material somehow did not&lt;br&gt;
+5:57&lt;br&gt;
+constitute Brady because those statements fall squarely within the rule&lt;br&gt;
+6:01&lt;br&gt;
+they weren't Petros here is the cold Jays testimony of the question because&lt;br&gt;
+6:05&lt;br&gt;
+it showed given for five stories that point they were all into just another&lt;br&gt;
+6:17&lt;br&gt;
+the position of the Baltimore State's Attorney's Office that a statement when&lt;br&gt;
+6:22&lt;br&gt;
+operating then they were a flake relief coming their noses at the Constitution&lt;br&gt;
+6:26&lt;br&gt;
+because this isn't just a case of reasonable minds can disagree over the&lt;br&gt;
+6:31&lt;br&gt;
+correct interpretation of the rule because any attorney who genuinely&lt;br&gt;
+6:34&lt;br&gt;
+thinks those statements where not Brady shouldn't be a prosecutor they are no&lt;br&gt;
+6:41&lt;br&gt;
+question so it's not speculation to say that you're acquitted only withhold&lt;br&gt;
+6:45&lt;br&gt;
+Brady material because we know he did and pretty blatantly to also repeatedly&lt;br&gt;
+6:51&lt;br&gt;
+he didn't hand over Jen statements at all during the first trial nor did he&lt;br&gt;
+6:55&lt;br&gt;
+hand over a non statement from his vibrate Wessex interview even though he&lt;br&gt;
+7:00&lt;br&gt;
+had to defer memos memorializing it and have been asked repeatedly he kept&lt;br&gt;
+7:05&lt;br&gt;
+responding to the defense that no they've all been handed over actually&lt;br&gt;
+7:09&lt;br&gt;
+although the defense ultimately got at least two of a statement during the&lt;br&gt;
+7:12&lt;br&gt;
+course of the first trial the prosecution didn't even hand over all OJ&lt;br&gt;
+7:16&lt;br&gt;
+statements and told midway through the second trial during that trial when
+Gutierrez brought it up again&lt;br&gt;
+7:23&lt;br&gt;
+your explored at all to have been produced but when the court told the&lt;br&gt;
+7:29&lt;br&gt;
+detectives to produce light up a David stating they had not in fact taken note&lt;br&gt;
+7:33&lt;br&gt;
+of Jason argues well suddenly and mysteriously those notes appeared the&lt;br&gt;
+7:39&lt;br&gt;
+prosecution apologized after all and handed over the notes from JS&lt;br&gt;
+7:45&lt;br&gt;
+pre-interview on February 28 in the pre-interview the different from all the&lt;br&gt;
+7:49&lt;br&gt;
+other statements and yet that's pretty too&lt;br&gt;
+7:52&lt;br&gt;
+and again we had on the record exists&lt;br&gt;
+7:56&lt;br&gt;
+until magically appeared&lt;br&gt;
+8:01&lt;br&gt;
+because withholding Brady material is a big deal but I wouldn't be saying this&lt;p&gt;
+
+
+</pre>
 </div>
 <div created="20151105012655174" modified="20151106003516623" tags="SerialDynastyPodcast" title="TranscriptOfCrimestoppersBradyViolation">
 <pre>{{BradyViolationDynasty18}}
